@@ -2,10 +2,10 @@ name: Run Unit Tests
 on:
   push:
     branches:
-      - main
+      - devdaysasia2023
   pull_request:
     branches:
-      - main
+      - devdaysasia2023
 
 jobs:
   test:
