@@ -6,4 +6,9 @@ services:
     ports:
       - 3000:3000
     environment:
-      - 'OPENAI_API_KEY='
+      - 'OPENAI_API_KEY=<API KEY>'
+      - 'AZURE_DEPLOYMENT_ID=<DEPLOYMENT NAME>'
+      - 'OPENAI_API_HOST=https://<AOAI NAME>.openai.azure.com/'
+      - 'OPENAI_API_TYPE=azure'
+      - 'OPENAI_API_VERSION=2023-03-15-preview'
+      - 'DEFAULT_MODEL=gpt-35-turbo'
